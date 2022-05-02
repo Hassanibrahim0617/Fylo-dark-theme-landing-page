@@ -39,7 +39,8 @@ text-transform: capitalize;
 .illustration-content{max-width: 80%;
 margin: 0 auto;}
 
-.illustration-content img{width: 100%;}
+.illustration-content img{width: 100%;
+padding-top: 20px;}
 
 .head-content{
 color: hsl(0, 0%, 100%);
@@ -48,8 +49,6 @@ margin:auto;
 text-align: center;}
 
 .head-content p{font-size: 14px;
-    background-color:hsl(218, 28%, 13%);
-    
     color: hsl(0, 0%, 100%);
 opacity: 0.7;
 
@@ -57,11 +56,11 @@ text-align: center;
 margin:0 28px;}
 
 .contained{background-image:url(bg-curvy-mobile.svg);
-    background-color:hsl(217, 28%, 15%); 
-    
+    background-color:hsl(217, 28%, 15%);    
 background-repeat: no-repeat;
-background-position:0 90%;
-background-size:100% 59%;}
+background-position:0 130%;
+
+background-size:120% 75%;}
 
 .head-button{background-color: linear-gradient(to right, hsl(176, 68%, 64%),
      hsl(198, 60%, 50%));
@@ -203,22 +202,19 @@ text-align: center;
    font-weight: 400;
    }
 
+   .link2{margin-left:5%;}
 .link2 ul li{display: inline;}
+
 .link2 ul li{background-color: hsl(217, 28%, 15%);
     list-style-type:none;
-margin: 0;
-
 }
 .link2 ul li a{color:  hsl(176, 68%, 64%);
 font-size: 15px;
-    font-weight:200;
+    font-weight:400;
     text-align: left;
-    border-left: 10px;
-    margin-left: 20px;
-    /* display:inline-flex; */
     text-decoration: underline;}
-.link2 img{width: 18px;
-   
+
+.link2 img{width: 18px;   
 height: 18px;}
 /* production end */
 
@@ -226,82 +222,98 @@ height: 18px;}
 .profile-quote{max-width: 30px;
 display: block;
 position: absolute;
-top: 428%;
+top: 432%;
 left: 12%;
 z-index: 0;}
 
-.profile-content{color: hsl(0, 0%, 100%);
-    font-size: 14px;
-margin:20px 40px 20px 10px;
-padding: 70px 0 20px 0;
-line-height: 1.6;
-font-weight: 400;
-border: 20px;
-background-color: hsl(217, 28%, 15%);
+.profile-content{max-width: 90%;
+margin:30px auto;
+padding: 10px 0 20px 10px;
+border-radius:5px;
+position: relative;
+z-index: 10;
+background-color: hsl(219, 30%, 18%);
 }
 
-.pro{width: 8px;
-height: 8px;
-border-radius: 3px;
-justify-content: space-between;
-align-items: left;}
+.profile-content p{color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+}
 
-.profile-list ul li{background-color: hsl(217, 28%, 15%);
+.patel{width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    position: relative;
+    top: 60px;
+    margin-left: 10px;
+    align-items: left;}
+
+.profile-list ul li{background-color: hsl(219, 30%, 18%);
     list-style-type:none;
-    /* color: hsl(0, 0%, 100%);
-margin: 20px; */
+
 
 }
 .name{color:  hsl(0, 0%, 100%);
-    font-size: 17px;
-    font-weight:700;
-    margin-left: 20px;
-    text-align: left;
-    border-left: 20px;}
+    background-color: hsl(217, 28%, 15%);
+     font-size: 17px;
+     font-weight:700;
+     margin-left: 20px;
+     text-align: left;
+     border-left: 20px;}
 
     .post{color:  hsl(0, 0%, 100%);
+        background-color: hsl(217, 28%, 15%);
         font-size: 14px;
         font-weight:400;
         opacity: 0.7;
         margin-left: 20px;
         text-align: left;
         border-left: 200px;}
-    /* profile-list ul li a */
+   
 /* profile1 end */
 
 /* profile2 start */
-.profile-content2{color: hsl(0, 0%, 100%);
+.profile-content2{max-width: 90%;
+    margin:30px auto;
+    padding: 10px 0 20px 10px;
+    border-radius:5px;
+    position: relative;
+    z-index: 10;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.profile-content2 p{color: hsl(0, 0%, 100%);
     font-size: 14px;
-margin:20px 40px 20px 10px;
-padding: 70px 0 20px 0;
-line-height: 1.6;
-font-weight: 400;
-border: 20px;
-background-color: hsl(217, 28%, 15%);
+    line-height: 2;
+    font-weight: 400;
 }
 
 
+.patel{width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    position: relative;
+    top: 60px;
+    margin-left: 10px;
+    align-items: left;}
 
-.img{width: 8px;
-height:8px;
-border-radius: 3px;
-justify-content: space-between;
-align-items: left;}
 
-/* .profile-list ul li{display: inline;} */
 .profile-list ul li{background-color: hsl(217, 28%, 15%);
     list-style-type:none;
 margin: 0;
 
 }
 .name{color:  hsl(0, 0%, 100%);
-    font-size: 17px;
-    font-weight:700;
-    margin-left: 20px;
-    text-align: left;
-    border-left: 20px;}
+    background-color: hsl(217, 28%, 15%);
+     font-size: 17px;
+     font-weight:700;
+     margin-left: 20px;
+     text-align: left;
+     border-left: 20px;}
 
     .post{color:  hsl(0, 0%, 100%);
+        background-color: hsl(217, 28%, 15%);
         font-size: 14px;
         font-weight:400;
         opacity: 0.7;
@@ -312,25 +324,30 @@ margin: 0;
 /* profile2 end */
 
 /* profile3 start */
-.profile-content3{color: hsl(0, 0%, 100%);
-    font-size: 14px;
-margin:20px 40px 20px 10px;
-padding: 70px 0 20px 0;
-line-height: 1.6;
-font-weight: 400;
-border: 20px;
-background-color: hsl(217, 28%, 15%);
+.profile-content3{max-width: 90%;
+    margin:30px auto;
+    padding: 10px 0 20px 10px;
+    border-radius:5px;
+    position: relative;
+    z-index: 10;
+    background-color: hsl(219, 30%, 18%);
 }
 
+.profile-content3 p{color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;}
 
 
-.img{width: 8px;
-height: 8px;
-border-radius: 3px;
-justify-content: space-between;
-align-items: left;}
 
-/* .profile-list ul li{display: inline;} */
+.patel{width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    position: relative;
+    top: 60px;
+    margin-left: 10px;
+    align-items: left;}
+
 .profile-list ul li{background-color: hsl(217, 28%, 15%);
     list-style-type:none;
 margin: 0;
@@ -366,7 +383,7 @@ margin: 0;
     border-radius: 10px;
 position: relative;
 text-align: center;
-top: 200px;}
+top: 190px;}
 
 .site h6{color: hsl(0, 0%, 100%);
     font-size: 22px;
@@ -488,7 +505,7 @@ padding-top: 30px;
 
 
 /* social-logo start */
-/* 
+
 .social-logo{ padding:5px;
 color: hsl(0, 0%, 100%);
 position: relative;
@@ -502,7 +519,7 @@ background-color: red;
 height: 8px;
 padding: 8px;
 border: 1px solid #ffffff;
-font-size: 10px;} */
+font-size: 10px;}
 /* social-logo end */
 
 
