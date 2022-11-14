@@ -16,6 +16,10 @@
 }
 
 /* style navbar start*/
+body{
+  background-color: var(--testimonialsBackground)
+}
+
 nav {
   display: flex;
   background-color: var(--testimonialsBackground);
@@ -61,11 +65,9 @@ nav {
 
 /* navbar2 start*/
 #contained {
-  background-image: url(../images/bg-curvy-desktop.svg);
+  
   background-color: var(--testimonialsBackground);
-  background-repeat: no-repeat;
-  background-position: 40% 30%;
-  background-size: 100% 7%;
+  
 }
 
 #illustration {
@@ -74,41 +76,45 @@ nav {
 }
 
 .intro {
-  margin: 5em 15em 0 15em;
+  margin: 0;
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 80%;
 }
 
-#contained h1 {
-  color: hsl(0, 0%, 100%);
-  margin: 3em 0 0 0;
+.intro h1 {
+  color: var(--White);
+  margin: 3em 10em 0 10em;
   text-align: center;
   font-weight: 700;
-  font-size: 40px;
-  font-family: 'Raleway', sans-serif;
-  padding: 20px 0 0 0;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  padding: 0 0 0 0;
 }
 
-#stores{
+#stores {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: hsl(0, 0%, 100%);
   opacity: 0.9;
   line-height: 1.3;
   text-align: center;
-  margin: 20px 9em;
+  margin: 20px 25em;
 }
 
 .head-button {
   background-image: linear-gradient(
-    to right, 
+    to right,
     var(--insideCall-to-actionGradient),
     var(--insideCall-to-actionGradient1)
   );
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 10px 80px;
   border-radius: 30px;
-  margin: 20px auto 30px auto;
+  margin: 20px auto 0 auto;
   font-weight: 700;
   border: none;
   display: block;
@@ -116,9 +122,9 @@ nav {
   cursor: pointer;
 }
 
-.head-button:hover{
+.head-button:hover {
   background-image: linear-gradient(
-    to right, 
+    to right,
     var(--insideCall-to-actionGradient),
     var(--insideCall-to-actionGradient)
   );
@@ -138,7 +144,7 @@ nav {
 .access {
   grid-area: a;
   max-width: 350px;
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
   padding: 20px 20px 0 0;
 }
 .access img {
@@ -150,7 +156,7 @@ nav {
 .access h3 {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 20px 0 10px 0;
   font-weight: 700;
   opacity: 0.9;
@@ -161,7 +167,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   opacity: 0.7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 10px auto;
   padding: 0 2em 0 0;
   width: 28vw;
@@ -175,7 +181,7 @@ nav {
 .security {
   grid-area: b;
   max-width: 350px;
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
   padding: 20px 20px 0 0;
 }
 
@@ -189,7 +195,7 @@ nav {
 .security h3 {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 20px 0 10px 1em;
   font-weight: 700;
   opacity: 0.9;
@@ -200,7 +206,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   opacity: 0.7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 10px auto;
   width: 28vw;
   line-height: 1.4;
@@ -226,7 +232,7 @@ nav {
 .collaboration h3 {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 20px 0 20px 1em;
   font-weight: 700;
   opacity: 0.9;
@@ -237,7 +243,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   opacity: 0.7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 0 10px 0;
   width: 29vw;
   line-height: 1.4;
@@ -264,7 +270,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
   opacity: 0.9;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 30px 0 20px 1em;
   font-weight: 700;
   text-align: center;
@@ -274,7 +280,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   opacity: 0.7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto 10px auto;
   width: 27vw;
   line-height: 1.4;
@@ -300,7 +306,7 @@ nav {
 .productive h2 {
   color: hsl(0, 0%, 100%);
   font-size: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 5em 12em 15px 19%;
   font-weight: 700;
   text-align: left;
@@ -309,7 +315,7 @@ nav {
 .productive p {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   opacity: 0.7;
   text-align: left;
   margin: 5px 8em 0 10em;
@@ -320,15 +326,15 @@ nav {
 .product a {
   color: hsl(176, 68%, 64%);
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding: 3em 0 10px 10em;
   text-decoration: underline;
 }
 
 .product a:hover,
-.product img:hover{
-  color:var(--White);
+.product img:hover {
+  color: var(--White);
 }
 .product img {
   width: 12px;
@@ -381,7 +387,7 @@ nav {
 .Satish-Patel p {
   color: var(--White);
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   opacity: 0.8;
   padding: 5px 2% 10px 10px;
@@ -393,7 +399,7 @@ nav {
 .Iva-Boyd p {
   color: var(--White);
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   opacity: 0.8;
   padding: 5px 2% 10px 10px;
@@ -405,7 +411,7 @@ nav {
   display: flex;
   justify-items: center;
   align-items: center;
-  margin: 0 ;
+  margin: 0;
 }
 
 #list img {
@@ -415,45 +421,43 @@ nav {
   margin: 0 0 2em 10px;
 }
 
-#name{
+#name {
   display: flex;
   flex-direction: column;
- height: 10vh;
- width: 20vw;
-  
+  height: 10vh;
+  width: 20vw;
 }
 
-#name h5{
+#name h5 {
   color: hsl(0, 0%, 100%);
   font-size: 12px;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-  margin:  0 0 0 9px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 0 9px;
   opacity: 0.8;
 }
 
-#name p{
+#name p {
   color: hsl(0, 0%, 100%);
   font-size: 10px;
   font-weight: 400;
   opacity: 0.7;
-  font-family: 'Open Sans', sans-serif;
- margin: 0 0 2em 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 2em 0;
 }
-
 
 /* profile1 end */
 
 /* site-email start */
-#enquire{
+#enquire {
   background-color: var(--mainBackground);
 }
 
-#site{
+#site {
   width: 60vw;
   color: hsl(0, 0%, 100%);
   background-color: hsl(217, 28%, 15%);
-  margin: 0  0 0 20%;
+  margin: 0 0 0 20%;
   padding-top: 40px;
   padding-bottom: 30px;
   border-radius: 10px;
@@ -466,7 +470,7 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 30px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 10px auto 20px auto;
   text-align: center;
 }
@@ -475,21 +479,21 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 12px;
   opacity: 0.8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 10px 0 25px 9em;
   padding: 0 7em 0 0;
   line-height: 1.5;
   font-weight: 400;
 }
 
-input{
+input {
   padding: 10px 17em 10px 30px;
   border-radius: 50px;
   border: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-input::placeholder{
+input::placeholder {
   opacity: 20%;
 }
 
@@ -504,15 +508,15 @@ input::placeholder{
   border-radius: 30px;
   margin: 10px 0px 5px 10px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   border: none;
   cursor: pointer;
   color: hsl(0, 0%, 100%);
 }
 
-.head-button2:hover{
+.head-button2:hover {
   background-image: linear-gradient(
-    to right, 
+    to right,
     var(--insideCall-to-actionGradient),
     var(--insideCall-to-actionGradient)
   );
@@ -531,16 +535,16 @@ footer {
   padding-top: 150px;
 }
 
-#flyo{
+#flyo {
   margin: 3em 0;
 }
 
-#flyo img{
+#flyo img {
   width: 10%;
   margin-left: 2em;
 }
 
-#flyo div{
+#flyo div {
   display: flex;
   color: var(--White);
   margin-left: 2em;
@@ -555,54 +559,53 @@ footer {
   height: 15vh;
   margin: 2em 2em 0 0;
   padding-right: 1em;
-  
 }
 
-#icon-location img{
+#icon-location img {
   width: 7%;
   height: 13%;
- margin: 0 1em 3em 0 ;
+  margin: 0 1em 3em 0;
 }
 
-#icon-location p{
+#icon-location p {
   margin: 0 1em 1em 0;
   line-height: 1.4;
   font-size: 13px;
   font-weight: 400;
   opacity: 70%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-#contact{
+#contact {
   display: flex;
   flex-direction: column;
   margin: 3em 7em 0 3em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-#contact section{
-display: flex;
-margin-bottom: 1em;
+#contact section {
+  display: flex;
+  margin-bottom: 1em;
 }
 
-#contact section img{
-  margin: 0 1em ;
+#contact section img {
+  margin: 0 1em;
 }
 
-#contact section h6{
+#contact section h6 {
   font-weight: 400;
   font-size: 12px;
   opacity: 70%;
 }
 
 #details,
-#agreement{
-margin: 3% 0;
-font-family: 'Open Sans', sans-serif;
+#agreement {
+  margin: 3% 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 #details ul,
-#agreement ul{
+#agreement ul {
   list-style-type: none;
   margin-right: 4em;
   line-height: 2;
@@ -613,23 +616,23 @@ font-family: 'Open Sans', sans-serif;
 }
 
 #details ul li a,
-#agreement ul li a{
+#agreement ul li a {
   cursor: pointer;
   text-decoration: none;
   color: var(--White);
 }
 
 #details ul:hover,
-#agreement a:hover{
+#agreement a:hover {
   opacity: 100%;
 }
 
-#social{
+#social {
   display: flex;
   margin: 3.5% 2% 0 3em;
 }
 
-.fa-brands{
+.fa-brands {
   border: 1px solid var(--White);
   width: 3px;
   height: 3px;
@@ -640,29 +643,276 @@ font-family: 'Open Sans', sans-serif;
   cursor: pointer;
 }
 
-.fa-facebook-f{
+.fa-facebook-f {
   padding: 8px 20px 24px 10px;
   cursor: pointer;
 }
 
-.fa-brands:hover{
- background-color: var(--footerBackground);
- border: 1px solid var(--insideCall-to-actionGradient);
- color: var(--insideCall-to-actionGradient);
+.fa-brands:hover {
+  background-color: var(--footerBackground);
+  border: 1px solid var(--insideCall-to-actionGradient);
+  color: var(--insideCall-to-actionGradient);
 }
 
-
+/* mobile responsiveness */
 
 @media (max-width: 600px) {
-  /* body{
+  header {
+    margin: 25px 0 10px 0;
+  }
+
+  nav {
+    width: 100vw;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo img {
+    max-width: 50%;
+    margin: 0 0 0 10px;
+  }
+  .href {
+    margin-left: 0;
+    margin-right: 10px;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .href ul li {
+    margin-right: 4px;
+  }
+  .href ul li a {
+    margin-right: 5px;
+  }
+  #illustration {
+    width: 95%;
+    margin: 2rem 0 0 0;
+  }
+
+  #contained{
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 55%;
+    background-size: 100% 27%;
+  }
+
+  .intro {
+    background-image: linear-gradient( to right,
+    var(--mainBackground), 
+     var(--mainBackground) );
+    margin: 40px 0 0 0;
+  }
+
+  .intro h1 {
+    margin: 0 10px 10px 10px;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  #stores {
+    margin: 10px 30px;
+  }
+
+  .head-button{
+    padding: 15px 80px;
+  }
+
+  .service {
     display: flex;
     flex-direction: column;
-  } */
-
-  header{
-    margin: 30px 1em 20px 1em;
-    padding: 0;
-    max-width: 90vw;;
+    padding: 0 20px;
   }
+
+  .access {
+    padding: 40px 10px 0 10px;
+  }
+
+  .security,
+  .collaboration,
+  .file {
+    padding-top: 30px;
+  }
+
+  .file {
+    padding-left: 0;
+  }
+
+  .access img,
+  .collaboration img,
+  .file img {
+    margin-left: 7em;
+  }
+
+  .security img {
+    margin-left: 8em;
+  }
+
+  .access h3 {
+    margin-top: 2em;
+    font-size: 16px;
+  }
+
+  .security h3,
+  .collaboration h3,
+  .file h3 {
+    margin: 2em 1em 10px 1em;
+    font-size: 16px;
+  }
+  .access p,
+  .security p,
+  .collaboration p {
+    width: 80vw;
+    padding: 0 5px;
+  }
+
+  .file p {
+    width: 85vw;
+    padding: 0;
+  }
+
+  .productive {
+    flex-direction: column;
+  }
+
+  #image-productive {
+    margin: 4em 2em 0 3em;
+  }
+
+  #image-productive img {
+    width: 100%;
+  }
+
+  .productive h2 {
+    margin: 10px 2em 15px 2em;
+    font-size: 18px;
+  }
+
+  .productive p {
+    margin: 5px 2rem 12px 2.3em;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .product a {
+    padding: 0 0 30px 30px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  .product img {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    background-position: 10% 20.3%;
+    background-size: 6%;
+  }
+  .Satish-Patel {
+    width: 86vw;
+    margin: 11rem 2em 0 2em;
+    padding: 5px 0 5px 5px;
+    line-height: 1.5;
+  }
+
+  .Bruce-McKenzie,
+  .Iva-Boyd {
+    width: 86vw;
+    margin: 1rem 2em 0 2em;
+    padding: 5px 0 5px 5px;
+    line-height: 1.5;
+  }
+
+  #name {
+    width: 40vw;
+  }
+
+#site{
+  width: 90vw;
+  margin: 0 0 0 20px;
+  top:165px;
 }
 
+#site h6{
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+#site-content{
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px 25px;
+}
+
+  input {
+    padding: 15px 85px 15px 15px;
+    margin: 10px 0px 15px 5px;
+  }
+
+  .head-button2{
+    padding: 15px 65px;
+    margin: 10px 0px 5px 5px;
+  }
+
+  #flyo{
+    margin: 5em 0 0 0;
+  }
+
+  #flyo img{
+    width: 50%;
+    margin: 2em 0 0 2em;
+  }  
+
+  #flyo div {
+    flex-direction: column;
+    margin: 3em 1em 0 1em;
+  }
+
+  #icon-location{
+    width: 80vw;
+    padding:0;
+    margin: 0;
+  }
+
+  #icon-location img{
+    width: 16%;
+    height: 18%;
+    margin: 0 0 4.5em 1em;
+  }
+  #icon-location p{
+    font-size: 16px;
+    margin: 0 0 1em 1em;
+    opacity: 80%;
+  }
+
+  #contact{
+    margin: 5px 0 4.5em 0;
+  }
+
+  #contact img{
+    width: 5%;
+  }
+
+  #details,
+  #agreement{
+    margin: 0 0 1.5em 1em;
+  }
+
+  #details ul,
+  #agreement ul{
+    opacity: 80%;
+    font-size: 16px;
+  }
+
+  #social{
+    margin: 3.5% 0 0 25%;
+  }
+}
